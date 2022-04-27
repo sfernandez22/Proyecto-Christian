@@ -6,6 +6,7 @@ public class ejercicio1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sn = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		int cantidadNumeros=0;
 		/*int sumarUno = 0;
 		int sumarDos = 0;
@@ -19,7 +20,7 @@ public class ejercicio1 {
 		int num2=0;
 
 		int opc = 0;
-		System.out.println("¿Con que cantidad de numeros desea operar?");
+		System.out.println("Â¿Con que cantidad de numeros desea operar?");
 		cantidadNumeros = sn.nextInt();
 		ArrayList<Integer> NumerosOperantes = new ArrayList<Integer>();
 
@@ -32,14 +33,14 @@ public class ejercicio1 {
 
 			case 1:
 				for (int i = 0; i < cantidadNumeros; i++) {
-					System.out.println("Número " + (i+1) + ":");
+					System.out.println("NÃºmero " + (i+1) + ":");
 					NumerosOperantes.add(sn.nextInt());
 				}
 				sumar2(NumerosOperantes);
 				break;
 			case 2:
 				for (int i = 0; i < cantidadNumeros; i++) {
-					System.out.println("Número " + (i+1) + ":");
+					System.out.println("NÃºmero " + (i+1) + ":");
 					NumerosOperantes.add(sn.nextInt());
 				}
 				multiplicar2(NumerosOperantes);
@@ -49,16 +50,16 @@ public class ejercicio1 {
 				break;
 				
 			case 4:
-				System.out.println("Primer número: ");
+				System.out.println("Primer nÃºmero: ");
 				num1 = sn.nextInt();
-				System.out.println("Segundo número: ");
+				System.out.println("Segundo nÃºmero: ");
 				num2 = sn.nextInt();
 				restar2(num1, num2);
 				break;
 			case 5:
-				System.out.println("Primer número: ");
+				System.out.println("Primer nÃºmero: ");
 				num1 = sn.nextInt();
-				System.out.println("Segundo número: ");
+				System.out.println("Segundo nÃºmero: ");
 				num2 = sn.nextInt();
 				dividir2(num1, num2);
 				break;
@@ -100,7 +101,7 @@ public class ejercicio1 {
 		for (int i = 1; i < numerosMulti.size(); i++) {
 			resultado = resultado * numerosMulti.get(i);
 		}
-		System.out.println("El resultado de la multiplicación es: " + " " + resultado);
+		System.out.println("El resultado de la multiplicaciÃ³n es: " + " " + resultado);
 	}
 
 	public static void restar2(int num1, int num2){
