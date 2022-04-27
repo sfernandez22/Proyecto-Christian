@@ -6,6 +6,7 @@ public class ejercicio1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sn = new Scanner(System.in);
+		/*He añadido un comentario*/ 
 		Scanner sc = new Scanner(System.in);
 		int cantidadNumeros=0;
 		/*int sumarUno = 0;
